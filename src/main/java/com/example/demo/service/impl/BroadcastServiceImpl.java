@@ -11,13 +11,15 @@ import com.example.demo.service.BroadcastService;
 @Service
 
 public class BroadcastServiceImpl implements BroadcastService{
+    Broadcast br;
+    List<Broadcast> list;
     public Broadcast scheduleBroadcast(long eventId,String channel,LocalDateTime scheduledOn){
-
+        return br;
     }
-    Broadcast runBroadcast(long broadcastId){
-
+    public Broadcast runBroadcast(long broadcastId){
+        return br;
     }
-    List<Broadcast> getBroadcastsByEvent(long eventId){
-        
+    public List<Broadcast> getBroadcastsByEvent(long eventId){
+        return list;
     }
 }
