@@ -1,5 +1,11 @@
 package com.example.demo.service;
 
-public class SubscriberService {
-    
+import java.util.List;
+
+import com.example.demo.entity.Subscriber;
+
+public interface SubscriberService {
+    Subscriber registSubscriber(Subscriber sub);
+    List<Subscriber> getAllSubscribers();
+    List<Subscriber> findMatchingSubscribers(String category,String location);   
 }

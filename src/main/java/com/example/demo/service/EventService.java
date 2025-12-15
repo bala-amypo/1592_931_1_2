@@ -11,5 +11,5 @@ public interface EventService {
     List<Event> getAllPublicEvents();
     List<Event> getEventsByOrganizer(long organizedId);
     Event geEvent(long eventId);
-    String deleteEvent(long eventId,)
+    String deleteEvent(long eventId,long organizerId);
 }
