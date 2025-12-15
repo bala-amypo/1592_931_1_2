@@ -7,6 +7,6 @@ public interface EventService {
     Event createEvent(Event event,long organizedId); 
     List<Event> getAllPublicEvents();
     List<Event> getEventsByOrganizer(long organizedId);
-    Event geEvent(long eventId);
+    Event getEvent(long eventId);
     String deleteEvent(long eventId,long organizerId);
 }

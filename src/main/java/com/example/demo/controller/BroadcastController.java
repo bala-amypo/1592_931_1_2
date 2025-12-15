@@ -37,9 +37,6 @@ public class BroadcastController {
     public List<Broadcast> getBroadcastsByEvent(@PathVariable long eventId){
         return broadcastService.getBroadcastsByEvent(eventId);
     }
-
-    @GetMapping("/{broadcastId}/logs")
-    public List<Broadcast> getBroadcastsByEvent(@PathVariable long eventId){
-        return broadcastService.getBroadcastsByEvent(eventId);
-    }
+    
+    //4th API doubt
 }

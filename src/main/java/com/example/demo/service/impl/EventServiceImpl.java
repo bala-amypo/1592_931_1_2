@@ -20,7 +20,7 @@ public class EventServiceImpl implements EventService  {
     public List<Event> getEventsByOrganizer(long organizedId){
         return list;
     }
-    public Event geEvent(long eventId){
+    public Event getEvent(long eventId){
         return e;
     }
     public String deleteEvent(long eventId,long organizerId){
