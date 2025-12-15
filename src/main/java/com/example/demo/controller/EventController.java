@@ -18,7 +18,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/events")
-@Tag(name="Event Controller")
+@Tag(name="Events")
 
 public class EventController {
     @Autowired

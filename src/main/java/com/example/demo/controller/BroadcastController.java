@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @ResponseStatus
 @RequestMapping("/broadcasts")
-@Tag(name = "Broadcast Controller")
+@Tag(name = "Broadcasts")
 
 public class BroadcastController {
     @Autowired
@@ -37,6 +37,6 @@ public class BroadcastController {
     public List<Broadcast> getBroadcastsByEvent(@PathVariable long eventId){
         return broadcastService.getBroadcastsByEvent(eventId);
     }
-    
+
     //4th API doubt
 }
